@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="192" viewBox="0 0 64 48" shape-rendering="crispEdges" role="img" aria-labelledby="title">
+  <title id="title">Pixel developer and an orange cat</title>
+
+  <style>
+    .tail-low { opacity: 0; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .developer-eyes {
+        transform-box: fill-box;
+        transform-origin: center bottom;
+        animation: blink 6s step-end infinite;
+      }
+
+      .typing-left, .typing-right { animation: type 1s step-end infinite; }
+      .typing-right { animation-delay: -.5s; }
+      .laptop-light { animation: laptop-light 2s step-end infinite; }
+      .tail-high, .tail-low { animation: tail-pose 3s step-end infinite; }
+      .tail-high { --rest: 1; --swish: 0; }
+      .tail-low { --rest: 0; --swish: 1; }
+    }
+
+    @keyframes blink {
+      0%, 96%, 100% { transform: scaleY(1); }
+      92% { transform: scaleY(.5); }
+    }
+
+    @keyframes type {
+      0%, 50%, 100% { transform: translateY(0); }
+      30% { transform: translateY(-2px); }
+    }
+
+    @keyframes laptop-light {
+      50% { fill: #4f8b85; }
+    }
+
+    @keyframes tail-pose {
+      0%, 72%, 100% { opacity: var(--rest); }
+      55% { opacity: var(--swish); }
+    }
+  </style>
+
+  <!-- Stepped frame and desk -->
+  <path d="M3 1h58v2h2v42h-2v2H3v-2H1V3h2z" fill="#10182e"/>
+  <path d="M4 3h56v2h1v38h-2v2H5v-2H3V5h1z" fill="#425984"/>
+  <path d="M5 5h54v38H5z" fill="#263858"/>
+  <path d="M5 34h54v9H5z" fill="#1e2b46"/>
+  <path d="M6 40h52v2H6z" fill="#62769e"/>
+  <path d="M6 42h52v1H6z" fill="#364c73"/>
+  <path d="M8 10h1v5H8zm-2 2h5v1H6zm45 0h1v5h-1zm-2 2h5v1h-5z" fill="#73d9ba"/>
+  <path d="M34 8h2v2h-2zm9 7h1v1h-1zm12-6h2v1h-2zM7 24h1v1H7z" fill="#718ab2"/>
+
+  <!-- Developer and laptop -->
+  <g transform="translate(1 5)">
+    <path d="M14 21h12v1h3v2h2v3h1v6H8v-6h1v-3h2v-2h3z" fill="#111b33"/>
+    <path d="M14 23h12v1h3v3h1v5H10v-5h1v-3h3z" fill="#3a77bd"/>
+    <path d="M12 24h4v2h-3v3h-2v-3h1zm12 0h4v2h1v3h-2v-3h-3z" fill="#78b5ef"/>
+    <path d="M18 22h4v2h-1v2h-2v-2h-1z" fill="#d78e69"/>
+    <path d="M15 6h10v1h2v2h2v9h-1v2h-2v2h-3v1h-6v-1h-3v-2h-2v-2h-1v-7h1V9h1V7h2z" fill="#15172b"/>
+    <path d="M15 11h10v2h2v2h1v3h-2v2h-3v1h-6v-1h-3v-2h-2v-3h2v-2h1z" fill="#f4bc90"/>
+    <path d="M13 16h1v2h-1zm13 0h1v2h-1zm-11 3h3v1h4v-1h3v1h-2v1h-6v-1h-2z" fill="#cf8667"/>
+    <path d="M15 8h10v1h2v3h1v3h-2v-2h-3v-2h-2v1h-4v1h-2v2h-2v-4h1V9h1z" fill="#35334e"/>
+    <path d="M16 8h7v1h-4v1h-3z" fill="#595479"/>
+    <path class="developer-eyes" d="M16 15h2v2h-2zm6 0h2v2h-2z" fill="#242239"/>
+    <path d="M19 18h3v1h-3z" fill="#a65154"/>
+    <path d="M12 25h16v1h2v7h-1v2H11v-2h-1v-7h2z" fill="#121d36"/>
+    <path d="M12 26h16v1h1v6H11v-6h1z" fill="#5d759e"/>
+    <path d="M12 26h16v1H12zm-1 6h18v1H11z" fill="#a7bee4"/>
+    <path class="laptop-light" d="M19 28h2v1h1v2h-4v-2h1z" fill="#71dcb8"/>
+    <path class="typing-left" d="M9 30h2v3H9z" fill="#f4bc90"/>
+    <path class="typing-right" d="M29 30h2v3h-2z" fill="#f4bc90"/>
+  </g>
+
+  <!-- The two tail poses share the same base behind the cat -->
+  <path class="tail-high" d="M50 35h5v-2h2v-5h2v6h-1v2h-2v2h-6z" fill="#d88451"/>
+  <path class="tail-low" d="M50 35h6v-1h1v-2h2v4h-3v2h-6z" fill="#d88451"/>
+
+  <!-- Orange tabby -->
+  <path d="M45 28h7v2h2v3h1v5h-2v2H40v-2h-1v-7h3v-2h3z" fill="#141c31"/>
+  <path d="M45 29h6v2h2v3h1v3h-2v2H41v-2h-1v-5h3v-2h2z" fill="#e49a62"/>
+  <path d="M49 32h3v1h-3zm1 2h3v1h-3z" fill="#bb6a48"/>
+  <path d="M37 21h3v2h2v2h4v-2h2v-2h3v7h1v5h-2v2H38v-1h-2v-6h1z" fill="#141c31"/>
+  <path d="M38 22h1v2h2v2h6v-2h2v-2h1v7h1v4h-2v1H39v-1h-2v-4h1z" fill="#ffc083"/>
+  <path d="M38 24h1v2h-1zm11 0h1v2h-1z" fill="#e5817c"/>
+  <path d="M42 26h1v2h-1zm3 0h1v2h-1z" fill="#d88451"/>
+  <path d="M40 32h3v-1h3v1h3v1h-1v1h-7v-1h-1zm2 5h2v2h-2zm5 0h2v2h-2z" fill="#ffdfad"/>
+  <path d="M39 29h2v1h-2zm8 0h2v1h-2z" fill="#302540"/>
+  <path d="M43 31h2v1h-2z" fill="#a65361"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="50" viewBox="0 0 650 50" role="img" aria-labelledby="title">
+  <title id="title">Chao Vanthoung’s animated introduction</title>
+  <style>
+    text {
+      fill: #00D1B2;
+      font: 600 22px "Fira Code", Consolas, monospace;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      text {
+        opacity: 0;
+        animation: type-line 16s var(--delay, 0s) infinite;
+      }
+    }
+
+    /* Each line gets three seconds to type and one second to pause. */
+    @keyframes type-line {
+      0% {
+        opacity: 1;
+        clip-path: inset(-0.25em 100% -0.25em 0);
+        animation-timing-function: steps(24, end);
+      }
+      18.75% {
+        opacity: 1;
+        clip-path: inset(-0.25em 0 -0.25em 0);
+        animation-timing-function: step-end;
+      }
+      25%, 100% {
+        opacity: 0;
+        clip-path: inset(-0.25em 0 -0.25em 0);
+      }
+    }
+  </style>
+
+  <!-- Edit the text between the tags to update the four lines. -->
+  <g text-anchor="middle" dominant-baseline="central">
+    <text x="325" y="25">Hi, I'm Vanthoung 👋</text>
+    <text x="325" y="25" opacity="0" style="--delay: 4s">Software Developer</text>
+    <text x="325" y="25" opacity="0" style="--delay: 8s; font-size: 20px">Building scalable web apps and backend services 💻</text>
+    <text x="325" y="25" opacity="0" style="--delay: 12s">Currently exploring DevOps ⚙️</text>
+  </g>
+</svg>

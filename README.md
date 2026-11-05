@@ -3,23 +3,30 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Chao%20Vanthoung&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Exploring%20DevOps&descAlignY=60&descSize=20" alt="header" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D1B2&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Chao+%F0%9F%91%8B;Software+Developer+%F0%9F%92%BB;Building+Scalable+Web+Apps+%F0%9F%9A%80;Learning+Spring+Microservices+%E2%98%95;Currently+Exploring+DevOps+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
-</a>
+<img src="assets/profile-intro.svg" alt="Chao Vanthoung’s animated introduction" />
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-<div align="center">
-  <img src="about-computer.svg" width="100%" alt="Pixel-art 80s desk scene with a project clipboard, a beige computer displaying Chao Vanthoung's profile in assembly-style text, and a coffee mug" />
-</div>
-
-<p align="center">
-  <i>I like systems that are simple to run, easy to observe, and boring to operate.</i>
-</p>
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li><strong>Name</strong> — Chao Vanthoung</li>
+        <li><strong>Role</strong> — Software Developer</li>
+        <li><strong>Education</strong> — Bachelor’s degree in Computer Science</li>
+        <li><strong>Location</strong> — Cambodia</li>
+        <li><strong>Current</strong> — Exploring DevOps</li>
+      </ul>
+    </td>
+    <td width="42%" align="center" valign="middle">
+      <img src="assets/about-pixel-cat.svg" width="224" alt="Animated pixel-art developer with a laptop and an orange cat" />
+    </td>
+  </tr>
+</table>
 
 ---
 

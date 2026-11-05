@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 40 40" shape-rendering="crispEdges" role="img" aria-labelledby="title">
+  <title id="title">Pixel developer with a laptop</title>
+
+  <!-- Stepped frame and background -->
+  <path d="M5 1h30v2h2v2h2v30h-2v2h-2v2H5v-2H3v-2H1V5h2V3h2z" fill="#10182e"/>
+  <path d="M6 3h28v2h2v2h1v26h-2v2h-2v2H7v-2H5v-2H3V7h1V5h2z" fill="#334a78"/>
+  <path d="M7 5h26v2h2v26h-2v2H7v-2H5V7h2z" fill="#233456"/>
+  <path d="M6 3h28v1H6zM3 7h1v26H3z" fill="#5976a8"/>
+  <path d="M7 31h26v1H7zm2 2h22v1H9z" fill="#1c2a49"/>
+  <path d="M8 9h1v5H8zm-2 2h5v1H6zm24-2h3v1h-3zm2 2h2v1h-2zm-1 7h1v3h-1zm-1 1h3v1h-3z" fill="#71dcb8"/>
+  <path d="M7 20h1v1H7zm3-3h1v1h-1zm23-2h1v1h-1z" fill="#6385bd"/>
+
+  <!-- Jacket and shoulders -->
+  <path d="M14 21h12v1h3v2h2v3h1v6H8v-6h1v-3h2v-2h3z" fill="#111b33"/>
+  <path d="M14 23h12v1h3v3h1v5H10v-5h1v-3h3z" fill="#3a77bd"/>
+  <path d="M12 24h4v2h-3v3h-2v-3h1zm12 0h4v2h1v3h-2v-3h-3z" fill="#78b5ef"/>
+  <path d="M18 22h4v2h-1v2h-2v-2h-1z" fill="#d78e69"/>
+
+  <!-- Face and hair -->
+  <path d="M15 6h10v1h2v2h2v9h-1v2h-2v2h-3v1h-6v-1h-3v-2h-2v-2h-1v-7h1V9h1V7h2z" fill="#15172b"/>
+  <path d="M15 11h10v2h2v2h1v3h-2v2h-3v1h-6v-1h-3v-2h-2v-3h2v-2h1z" fill="#f4bc90"/>
+  <path d="M13 16h1v2h-1zm13 0h1v2h-1zm-11 3h3v1h4v-1h3v1h-2v1h-6v-1h-2z" fill="#cf8667"/>
+  <path d="M15 8h10v1h2v3h1v3h-2v-2h-3v-2h-2v1h-4v1h-2v2h-2v-4h1V9h1z" fill="#35334e"/>
+  <path d="M16 8h7v1h-4v1h-3z" fill="#595479"/>
+  <path d="M16 15h2v2h-2zm6 0h2v2h-2z" fill="#242239"/>
+  <path d="M19 18h3v1h-3z" fill="#a65154"/>
+
+  <!-- Laptop and hands -->
+  <path d="M12 25h16v1h2v7h-1v2H11v-2h-1v-7h2z" fill="#121d36"/>
+  <path d="M12 26h16v1h1v6H11v-6h1z" fill="#5d759e"/>
+  <path d="M12 26h16v1H12zm-1 6h18v1H11z" fill="#a7bee4"/>
+  <path d="M19 28h2v1h1v2h-4v-2h1z" fill="#71dcb8"/>
+  <path d="M9 30h2v3H9zm20 0h2v3h-2z" fill="#f4bc90"/>
+</svg>
