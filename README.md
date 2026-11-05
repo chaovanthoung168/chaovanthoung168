@@ -46,8 +46,8 @@
   <img src="https://cdn.simpleicons.org/github/8B949E" height="40" alt="GitHub" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" height="40" alt="GitLab" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg" height="40" alt="Apache Kafka" />&nbsp;
+<img src="./assets/debezium.svg" height="40" alt="Debezium" />&nbsp;
 
-<img src="https://raw.githubusercontent.com/debezium/debezium.github.io/main/assets/images/color_white_debezium_type_600px.svg" height="40" alt="Debezium" />
 
 
 </p>
