@@ -52,39 +52,14 @@
 
 </p>
 
-
----
-
-## 🚀 Featured Projects
-
-| Project | What it does | Built with |
-|:--------|:-------------|:-----------|
-| [**Shipora**](https://github.com/chaovanthoung168/shipora) | Self-hosted deployment platform that connects GitHub repositories and manages Docker Compose deployments from one dashboard. | `Java` `Spring` `Docker` `Kubernetes` |
-| [**ITP-MBanking-Microservice**](https://github.com/chaovanthoung168/ITP-MBanking-Microservice) | Mobile-banking backend split into account and customer services, with service discovery, gateway, Kafka events, Redis and Vault. | `Spring Boot` `Eureka` `Kafka` `Redis` `Next.js` |
-| [**Banking System (Python)**](https://github.com/chaovanthoung168/banking-system-python) | Console banking app built with layered MVC, service/repository abstractions and unit tests. | `Python` `OOP` `MVC` `unittest` |
-
----
-
-## 🗺️ My DevOps Learning Roadmap
-
-```mermaid
-flowchart LR
-    A[🐧 Linux & Shell] --> B[🌿 Git & GitHub]
-    B --> C[🐳 Docker]
-    C --> D[🔁 CI/CD<br/>GitHub Actions / GitLab CI]
-    D --> E[☸️ Kubernetes]
-    E --> F[🏗️ Terraform]
-    F --> G[📈 Monitoring<br/>Prometheus + Grafana]
-```
-
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=chaovanthoung168&show_icons=true&hide_border=true&count_private=true&title_color=00D1B2&icon_color=00D1B2&text_color=C9D1D9&bg_color=0D1117" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chaovanthoung168&layout=compact&langs_count=6&hide_border=true&title_color=00D1B2&text_color=C9D1D9&bg_color=0D1117" alt="Top languages" />
+<img height="180" src="https://github-stats-extended.vercel.app/api?username=chaovanthoung168&show_icons=true&hide_border=true&count_private=true&title_color=00D1B2&icon_color=00D1B2&text_color=C9D1D9&bg_color=0D1117" alt="GitHub stats" />
+<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=chaovanthoung168&layout=compact&langs_count=6&hide_border=true&title_color=00D1B2&text_color=C9D1D9&bg_color=0D1117" alt="Top languages" />
 
 <br/>
 
