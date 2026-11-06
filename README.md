@@ -13,6 +13,12 @@
 
 <table>
   <tr>
+    <td width="35%" align="center" valign="middle">
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="assets/about-capybara.svg#still" />
+        <img src="assets/about-capybara.svg" width="192" alt="Pixel-art capybara drawing a sword in a pine forest beneath snowy mountains" />
+      </picture>
+    </td>
     <td>
       <ul>
         <li><strong>Name</strong> — Chao Vanthoung</li>
@@ -21,9 +27,6 @@
         <li><strong>Location</strong> — Cambodia</li>
         <li><strong>Current</strong> — Exploring DevOps</li>
       </ul>
-    </td>
-    <td width="42%" align="center" valign="middle">
-      <img src="assets/about-pixel-cat.svg" width="224" alt="Animated pixel-art developer with a laptop and an orange cat" />
     </td>
   </tr>
 </table>

@@ -1,0 +1,150 @@
+<svg id="still" xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 40 40" role="img" aria-labelledby="title">
+  <title id="title">Pixel capybara drawing a sword in a mountain forest</title>
+
+  <style>
+    .eyes-open, .scarf-raised, .sword-drawing, .sword-raised { opacity: 0; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      svg { --loop: 4.8s step-end infinite; }
+      svg:not(:target) .sprite { animation: bounce var(--loop); }
+      svg:not(:target) .eyes-closed, svg:not(:target) .eyes-open { animation: peek var(--loop); }
+      svg:not(:target) .scarf-rest, svg:not(:target) .scarf-raised { animation: flutter var(--loop); }
+      svg:not(:target) .sword-pose { animation: draw-sword var(--loop); }
+      .eyes-closed, .scarf-rest { --rest: 1; --active: 0; }
+      .eyes-open, .scarf-raised { --rest: 0; --active: 1; }
+      .sword-sheathed { --sheathed: 1; --drawing: 0; --raised: 0; }
+      .sword-drawing { --sheathed: 0; --drawing: 1; --raised: 0; }
+      .sword-raised { --sheathed: 0; --drawing: 0; --raised: 1; }
+    }
+
+    @keyframes bounce {
+      0%, 26%, 100% { transform: translateY(0); }
+      17%, 24% { transform: translateY(-1px); }
+      21% { transform: translateY(-2px); }
+    }
+
+    @keyframes peek {
+      0%, 81%, 100% { opacity: var(--rest); }
+      32% { opacity: var(--active); }
+    }
+
+    @keyframes flutter {
+      0%, 28%, 100% { opacity: var(--rest); }
+      19% { opacity: var(--active); }
+    }
+
+    @keyframes draw-sword {
+      0%, 81%, 100% { opacity: var(--sheathed); }
+      32%, 74% { opacity: var(--drawing); }
+      42% { opacity: var(--raised); }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="scene-frame">
+      <rect width="40" height="40" rx="2"/>
+    </clipPath>
+    <path id="pine" d="M3 0h1v3h1v2h1v2H5v1h1v2h1v1H4v2H3v-2H0v-1h1V8h1V7H1V5h1V3h1z"/>
+  </defs>
+
+  <g clip-path="url(#scene-frame)" shape-rendering="crispEdges">
+    <!-- Green dusk sky -->
+    <path fill="#193328" d="M0 0h40v40H0z"/>
+    <path fill="#284a37" d="M0 10h40v30H0z"/>
+    <path fill="#52744d" d="M0 18h40v22H0z"/>
+    <path fill="#93b584" d="M4 5h1v1H4zm8-2h1v1h-1zm19 2h1v1h-1zm5-2h1v1h-1z"/>
+    <path fill="#3d6046" d="M0 12h6v1H0zm11-4h5v1h-5zm20 3h9v1h-9z"/>
+
+    <!-- Stepped summits and snow caps -->
+    <path fill="#608557" d="M0 23h2v-3h2v-3h2v-3h2v-3h2v2h2v3h2v3h2v3h3v2h4v-3h2v-3h2v-4h2v-4h2v2h2v3h2v3h2v3h3v19H0z"/>
+    <path fill="#b9d2a4" d="M8 11h2v2h2v3h-2v-1H8v2H6v-3h2zm21-1h2v2h2v3h-2v-1h-2v2h-2v-2h2z"/>
+    <path fill="#416347" d="M10 15h2v1h2v3h2v3h3v2h4v-3h2v-3h2v-2h2v6h-3v4H10zm21-1h2v1h2v3h2v3h3v6h-5v-5h-2v-4h-2z"/>
+
+    <!-- Pine forest and a rocky clearing -->
+    <g fill="#315b3b">
+      <use href="#pine" x="0" y="20"/>
+      <use href="#pine" x="7" y="18"/>
+      <use href="#pine" x="14" y="22"/>
+      <use href="#pine" x="32" y="20"/>
+    </g>
+    <g fill="#214731">
+      <use href="#pine" x="-2" y="25"/>
+      <use href="#pine" x="4" y="23"/>
+      <use href="#pine" x="10" y="25"/>
+      <use href="#pine" x="35" y="24"/>
+    </g>
+    <path fill="#19382a" d="M0 33h6v1h8v1h17v-1h6v-1h3v7H0z"/>
+    <path fill="#5b7956" d="M1 36h5v1H1zm6 2h3v1H7zm15 0h3v1h-3zm14-2h3v1h-3z"/>
+  </g>
+
+  <g class="sprite" shape-rendering="crispEdges">
+    <!-- Gold horns behind the steel helmet -->
+    <path fill="#9b622d" d="M16 13V9h1V7h1V5h1V3h1v7h-1v2h-1v2h-2zm8-10h1v2h1v2h1v2h1v4h-2v-2h-1V8h-1z"/>
+    <path fill="#ffdf79" d="M19 3h1v2h-1zm-1 2h1v1h-1zm-1 2h1v2h-1zm0 3h1v1h-1zm7-7h1v2h-1zm1 2h1v1h-1zm1 2h1v1h-1z"/>
+    <path fill="#d99a43" d="M19 5h1v2h-1zm-1 1h1v1h-1zm-2 3h1v2h-1zm9-3h1v1h-1zm2 2h1v2h-1z"/>
+
+    <!-- Helmet dome and gold faceplate -->
+    <path fill="#353242" d="M16 12h1v-2h2V8h7v1h2v2h1v4H16z"/>
+    <path fill="#757588" d="M18 11h1V9h7v1h2v4H18z"/>
+    <path fill="#a8a9b9" d="M23 9h2v1h1v3h-2v-3h-1z"/>
+    <path fill="#505166" d="M17 12h2v2h2v1h-4z"/>
+    <path fill="#b47c35" d="M19 11h10v2h-1v2h-8v-2h-1z"/>
+    <path fill="#f1bd53" d="M20 11h9v2h-2v2h-2v-2h-1v2h-2v-2h-2z"/>
+    <path fill="#ffdf79" d="M21 11h3v1h-3zm5 0h3v1h-3zm-2 1h1v1h-1z"/>
+    <path fill="#352333" d="M21 12h2v1h-2zm5 0h2v1h-2zm-2 1h1v2h-1z"/>
+
+    <!-- Body, ear, paws, and cream belly -->
+    <path fill="#724831" d="M11 15h3v1h2v-1h13v1h2v1h1v1h1v2h1v7h-2v6h-1v2h-1v2h-1v1h-3v-1h-1v-2h-5v1h-3v1h-1v1h-3v-4h-1v-6h-1v-7h1v-3h-1z"/>
+    <path fill="#ca814b" d="M12 15h2v1h2v-1h12v1h3v1h1v1h1v2h1v6h-2v6h-1v2h-1v2h-1v1h-3v-1h-1v-2h-5v1h-3v1h-1v1h-2v-3h-1v-7h-1v-6h1v-3h-1z"/>
+    <path fill="#a25c32" d="M12 16h2v2h-1v3h-1zm0 11h2v4h1v2h2v1h3v1h-3v1h-1v1h-2v-3h-1v-7z"/>
+    <path fill="#e6b88a" d="M21 26h2v-1h2v2h6v6h-1v1H20v-6h1z"/>
+    <path fill="#bc895d" d="M20 33h11v1H20zm6 3h3v1h-3zm-12 0h2v1h-2z"/>
+
+    <!-- Two eye poses and the square snout -->
+    <path class="eyes-closed" fill="#21181b" d="M19 19h5v1h-5zm10 0h4v1h-4z"/>
+    <path class="eyes-open" fill="#21181b" d="M21 18h2v2h-2zm9 0h2v2h-2z"/>
+    <path fill="#8b5437" d="M26 21h1v-1h6v1h1v6h-1v1h-8v-1h-1v-4h1v-1h1z"/>
+    <path fill="#a6754e" d="M27 21h5v1h1v5h-7v-1h-1v-3h1v-1h1z"/>
+    <path fill="#382b27" d="M28 22h3v1h-1v2h-1v-2h-1zm0 3h1v1h-1zm2 0h1v1h-1z"/>
+
+    <!-- The scarf tail swaps poses beneath the stationary band. -->
+    <g class="scarf-rest">
+      <path fill="#6f2d7e" d="M11 27h1v2h-1v6h-1v-1H9v-5h1v-1h1z"/>
+      <path fill="#9f3da6" d="M10 29h1v5h-1v-1H9v-3h1z"/>
+    </g>
+    <g class="scarf-raised">
+      <path fill="#6f2d7e" d="M11 27h2v1h-2v1H9v2H8v2H7v-4h1v-1h3z"/>
+      <path fill="#9f3da6" d="M8 29h2v1H9v1H8v1H7v-2h1z"/>
+    </g>
+    <path fill="#6f2d7e" d="M11 26h7v1h7v1h7v1h-1v1h-2v1h-5v-1h-3v-1h-3v-1h-7z"/>
+    <path fill="#9f3da6" d="M20 27h5v1h6v1h-2v2h-5v-1h-2v-1h1v-1h-3z"/>
+    <path fill="#ba58be" d="M11 27h1v1h-1zm9 0h5v1h-5z"/>
+
+    <!-- Scabbard and three sword poses -->
+    <path fill="#392d3d" d="M33 27h3v10h-1v1h-2z"/>
+    <path fill="#756075" d="M33 29h1v7h-1z"/>
+    <path fill="#d99a43" d="M33 28h3v1h-3zm0 8h2v1h-2z"/>
+
+    <g class="sword-pose sword-sheathed">
+      <path fill="#69505a" d="M34 25h1v3h-1z"/>
+      <path fill="#f1bd53" d="M34 24h1v1h-1zm-2 3h5v1h-5z"/>
+    </g>
+    <g class="sword-pose sword-drawing">
+      <path fill="#818da7" d="M34 21h2v7h-2z"/>
+      <path fill="#d9e4ef" d="M34 21h1v7h-1z"/>
+      <path fill="#69505a" d="M34 17h1v4h-1z"/>
+      <path fill="#f1bd53" d="M34 17h1v1h-1zm-2 3h5v1h-5z"/>
+      <path fill="#724831" d="M31 28v-4h1v-5h1v-1h3v2h-2v5h-1v3z"/>
+      <path fill="#ca814b" d="M32 25h1v-5h1v-1h2v1h-2v6h-1v1h-1z"/>
+    </g>
+    <g class="sword-pose sword-raised">
+      <path fill="#818da7" d="M36 7h1v2h1v14h-3V9h1z"/>
+      <path fill="#d9e4ef" d="M36 8h1v14h-2V10h1z"/>
+      <path fill="#f4fbff" d="M36 10h1v9h-1z"/>
+      <path fill="#69505a" d="M36 23h1v5h-1z"/>
+      <path fill="#f1bd53" d="M34 22h5v1h-5zm2 5h1v1h-1z"/>
+      <path fill="#724831" d="M30 29h1v-2h2v-2h2v-2h3v3h-2v2h-2v2h-4z"/>
+      <path fill="#ca814b" d="M31 28h2v-2h2v-2h2v2h-2v2h-2v1h-2z"/>
+    </g>
+  </g>
+</svg>
