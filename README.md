@@ -13,13 +13,13 @@
 
 <table>
   <tr>
-    <td width="35%" align="center" valign="middle">
+    <td width="50%" align="center" valign="middle">
       <picture>
         <source media="(prefers-reduced-motion: reduce)" srcset="assets/about-capybara.svg#still" />
         <img src="assets/about-capybara.svg" width="192" alt="Pixel-art capybara drawing a sword in a pine forest beneath snowy mountains" />
       </picture>
     </td>
-    <td>
+    <td width="50%">
       <ul>
         <li><strong>Name</strong> — Chao Vanthoung</li>
         <li><strong>Role</strong> — Software Developer</li>
