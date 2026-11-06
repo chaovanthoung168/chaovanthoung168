@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="80" viewBox="0 0 640 80" role="img" aria-labelledby="quote">
+  <title id="quote">First, solve the problem. Then, write the code. Then, automate the deploy.</title>
+  <rect width="640" height="80" rx="6" fill="#173428"/>
+  <path d="M6 0v80a6 6 0 0 1-6-6V6a6 6 0 0 1 6-6z" fill="#61ad76"/>
+  <text x="320" y="33" text-anchor="middle" fill="#f1f7ef" font-family="Segoe UI, Arial, sans-serif" font-size="22">
+    <tspan x="320">“First, solve the problem. Then, write the code.</tspan>
+    <tspan x="320" dy="27">Then, automate the deploy.” <tspan fill="#f4c765">⚡</tspan></tspan>
+  </text>
+</svg>

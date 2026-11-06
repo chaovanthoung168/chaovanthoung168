@@ -1,7 +1,7 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Chao%20Vanthoung&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Exploring%20DevOps&descAlignY=60&descSize=20" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:123225,50:1b5035,100:28613f&height=220&section=header&text=Chao%20Vanthoung&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Exploring%20DevOps&descAlignY=60&descSize=20" alt="header" />
 
 <img src="assets/profile-intro.svg" alt="Chao Vanthoung’s animated introduction" />
 
@@ -13,19 +13,19 @@
 
 <table>
   <tr>
-    <td width="50%" align="center" valign="middle">
+    <td width="35%" align="center" valign="middle">
       <picture>
         <source media="(prefers-reduced-motion: reduce)" srcset="assets/about-capybara.svg#still" />
         <img src="assets/about-capybara.svg" width="192" alt="Pixel-art capybara drawing a sword in a pine forest beneath snowy mountains" />
       </picture>
     </td>
-    <td width="50%">
+    <td>
       <ul>
-        <li><strong>Name</strong> — Chao Vanthoung</li>
-        <li><strong>Role</strong> — Software Developer</li>
-        <li><strong>Education</strong> — Bachelor’s degree in Computer Science</li>
-        <li><strong>Location</strong> — Cambodia</li>
-        <li><strong>Current</strong> — Exploring DevOps</li>
+        <li>👋 Hi, I’m <strong>Chao Vanthoung</strong>, a software developer based in Cambodia.</li>
+        <li>💻 I build <strong>web apps</strong> and the <strong>backend services</strong> that power them.</li>
+        <li>🎓 I earned a <strong>bachelor’s degree in Computer Science</strong>.</li>
+        <li>🌱 Currently I’m exploring <strong>DevOps</strong>.</li>
+        <li>🤝 Have a project in mind? I’m open to <strong>collaborating</strong> or talking through ideas.</li>
       </ul>
     </td>
   </tr>
@@ -91,8 +91,8 @@
 
 💬 *Feel free to reach out if you want to collaborate on projects or just have a tech chat!*
 
-> "First, solve the problem. Then, write the code. Then, automate the deploy." ⚡
+<img src="assets/profile-quote.svg" width="640" alt="First, solve the problem. Then, write the code. Then, automate the deploy." />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:28613f,50:1b5035,100:123225&height=120&section=footer" alt="footer" />
 
 </div>
